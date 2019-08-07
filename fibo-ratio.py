@@ -1,5 +1,7 @@
 # Proof that Fibonacci Ratio is Golden Ratio.
 
+import math
+
 def fibonacci(n):
   if n == 1:
     return 1
@@ -16,4 +18,5 @@ def ratio():
   print(ratio)
 
 
-ratio()
+print((1+math.sqrt(5))/2)
+# ratio()
